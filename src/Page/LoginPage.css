@@ -1,0 +1,117 @@
+/* Background Styling */
+body {
+    background: linear-gradient(to right, #4c1d95, #6b21a8, #db2777);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Centered Form Container */
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Login Box */
+  .login-box {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .login-box:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Title */
+  .login-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 16px;
+  }
+  
+  /* Input Fields */
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .input-field::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border: 2px solid white;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    width: 100%;
+    background: linear-gradient(to right, #ec4899, #ef4444);
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .submit-btn:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Social Login Buttons */
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .social-btn {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 12px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .social-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .social-icon {
+    font-size: 24px;
+    color: white;
+  }
+  
+  /* Register Link */
+  .text-bold {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .text-bold:hover {
+    text-decoration: underline;
+  }
+  
